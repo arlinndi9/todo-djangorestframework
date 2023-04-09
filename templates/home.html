@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>books</title>
+</head>
+<body>
+    {% for book in books %}
+        <p>title:{{ book.title}}</p>
+        <p>author:{{ book.author}}</p>
+        <p>subtitile:{{ book.subtitle}}</p>
+        <p>isbn:{{ book.isbn}}</p>
+        <hr>
+    {% endfor %}
+
+</body>
+</html>
